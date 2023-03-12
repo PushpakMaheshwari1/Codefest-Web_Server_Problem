@@ -11,5 +11,5 @@ def server(lists):
 
 ## Using python based approach
 def website(lists):
-  sorted_list = sorted(lists,lambda : x[0],-x[1])
+  sorted_list = sorted(lists,key = lambda : x[0],-x[1])
   return(sorted_list)
